@@ -10,6 +10,8 @@ packages = [{include = "tree_identification"}]
 python = "^3.11"
 jupyter = "^1.0.0"
 pandas = "^2.2.2"
+kaggle = "^1.6.14"
+loguru = "^0.7.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
