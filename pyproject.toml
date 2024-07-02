@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tree-identification"
+version = "0.1.0"
+description = ""
+authors = ["James Moro <james.moro.11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tree_identification"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
